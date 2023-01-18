@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 20px;
+  width: 100%;
+}
+
+#hero {
+  background-color: #f1c40f;
+  text-align: center;
+}
+
+#about {
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
+}
+
+#services {
+  background-color: #2ecc71;
+  color: white;
+  text-align: center;
+}
+
+#services ul {
+  list-style-type: none;
+}
+
+#contact {
+  background-color: #9b59b6;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #7f8c8d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
