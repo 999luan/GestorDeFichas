@@ -10,7 +10,7 @@ const Nav = () => {
       </ul>
       <ul>
         <li>
-          <Link href="#">Criar Fichas</Link>
+          <Link href="/criaficha">Criar Fichas</Link>
         </li>
         <li>
           <Link href="#">Cadastrar Fichas</Link>
