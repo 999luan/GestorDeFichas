@@ -8,7 +8,7 @@ const article = ({ article }) => {
   const { id } = router.query;
 
   return (
-    <article data-theme="light" contenteditable="true">
+    <article data-theme="light" contentEditable="true">
       <div className={articleStyles.ficha}>
         <h1 className={articleStyles.fichaTitle}> {article.title}</h1>
         <p className={articleStyles.fichaLabel}>
