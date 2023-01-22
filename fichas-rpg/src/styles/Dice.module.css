@@ -1,0 +1,25 @@
+.diceRoller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-roller button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.diceRoller button:hover {
+  background-color: #3e8e41;
+}
+
+.diceRoller span {
+  font-size: 2em;
+  margin: 10px 0;
+  color: black;
+}

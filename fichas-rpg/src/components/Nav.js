@@ -5,7 +5,9 @@ const Nav = () => {
     <nav className={navStyles.nav}>
       <ul>
         <li>
-          <strong>RPG FICHA</strong>
+          <Link href="/">
+            <strong>RPG FICHA</strong>
+          </Link>
         </li>
       </ul>
       <ul>
