@@ -20,7 +20,7 @@ const DiceRoller = () => {
 
   return (
     <div className={diceStyles.diceRoller}>
-      <h2>Dice Roller</h2>
+      <h2>Dados:</h2>
       <button onClick={rollD6}>Rolar d6</button>
       <span>{d6}</span>
       <br />
