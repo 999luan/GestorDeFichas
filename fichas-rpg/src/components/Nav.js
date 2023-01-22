@@ -12,9 +12,7 @@ const Nav = () => {
         <li>
           <Link href="/criaficha">Criar Fichas</Link>
         </li>
-        <li>
-          <Link href="#">Cadastrar Fichas</Link>
-        </li>
+
         <li>
           <a href="#" role="button" className="botao">
             Login

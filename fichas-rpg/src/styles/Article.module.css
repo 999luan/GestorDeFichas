@@ -1,16 +1,14 @@
 .grid {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+
+  max-width: 100%;
   margin-top: 3rem;
 }
-.cardBox {
-  background-color: rgb(255, 255, 255);
-  border-radius: 12px;
-  width: 100%;
-}
+
 .card {
   margin: 1rem;
   flex-basis: 45%;
@@ -51,4 +49,33 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.ficha {
+  padding: 20px;
+  border-radius: 10px;
+  gap: 4rem;
+  max-width: 800px;
+  min-height: 1000px;
+}
+
+.fichaTitle {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.fichaLabel {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.fichaValue {
+  font-style: italic;
+}
+
+.fichaSection {
+  padding: 20px;
+
+  font-size: 1.5em;
+  margin-top: 20px;
 }

@@ -1,5 +1,6 @@
 import { fichas } from "../../data";
 import { useState } from "react";
+import Link from "next/link";
 
 const FichaForm = () => {
   const [formData, setFormData] = useState({
@@ -194,6 +195,10 @@ const FichaForm = () => {
 
         <input type="submit" value="Enviar" onClick={handleSubmit} />
       </form>
+      <Link href="/" role="button">
+        {" "}
+        Voltar
+      </Link>
     </div>
   );
 };
