@@ -1,9 +1,11 @@
 import { server } from "../../config";
 import ArticleList from "@/components/ArticleList";
+import articleStyles from "../styles/Article.module.css";
+
 export default function Home({ articles }) {
   console.log(articles);
   return (
-    <div>
+    <div className={articleStyles.cardBox}>
       <ArticleList articles={articles} />
     </div>
   );
