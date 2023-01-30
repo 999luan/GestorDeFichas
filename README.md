@@ -10,14 +10,7 @@ Para iniciar o projeto, execute o comando npm run dev na pasta do projeto. Isso 
 
 Na página inicial, você poderá criar uma nova ficha de personagem preenchendo as informações solicitadas. Em seguida, você poderá visualizar e editar as fichas criadas na aba "Fichas".
 
-## Contribuição ##
-Este projeto é aberto a contribuições. Se você deseja contribuir, siga estas etapas:
 
-Faça um fork do repositório
-Crie uma branch para suas mudanças (git checkout -b my-new-feature)
-Commit suas mudanças (git commit -am 'Add some feature')
-Faça push para a branch (git push origin my-new-feature)
-Crie um Pull Request
 
 Licença
 Este projeto está licenciado sob a licença MIT.
